@@ -21,11 +21,11 @@ from aiogram.exceptions import TelegramBadRequest
 
 # --- НАСТРОЙКИ ---
 # Вставьте сюда токен вашего бота из config.py
-BOT_TOKEN = "7549625011:AAGAQ84WeBP5JQ_DkqcgP51j47vD4Dzt0Qw" 
+BOT_TOKEN = "токен" 
 # Вставьте сюда ID чата, куда бот будет загружать фото.
 # Это может быть ID вашего личного чата с ботом или ID закрытого канала.
 # Чтобы узнать свой ID, можно написать боту @userinfobot
-TARGET_CHAT_ID = 7815168264 
+TARGET_CHAT_ID = "айди" 
 # Пути к файлам (должны совпадать с config.py)
 CARS_DATA_PATH = "data/cars.json"
 IMAGES_PATH = "images/"
@@ -131,3 +131,4 @@ async def upload_images_and_get_file_ids():
 
 if __name__ == "__main__":
     asyncio.run(upload_images_and_get_file_ids())
+
