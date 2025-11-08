@@ -1,0 +1,29 @@
+CarCollect/
+├── images/
+│   ├── ford_focus.jpg
+│   ├── audi_a4.jpg
+│   ├── mini_cooper.jpg
+│   ├── default_car.png
+├── data/
+│   └── cars.json
+├── handlers/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── common.py
+│   ├── garage.py
+│   ├── group.py
+│   ├── minigames.py
+│   ├── profile.py
+│   ├── shop.py
+│   ├── support.py
+│   ├── trade.py
+├── middlewares/
+│   └── main_middlewares.py
+├── utils/
+│   ├── fsm.py
+│   ├── helpers.py
+├── config.py
+├── db.py
+├── logic.py
+├── main.py
+├── Структура.txt
